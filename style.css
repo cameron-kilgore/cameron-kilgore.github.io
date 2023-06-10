@@ -1,0 +1,106 @@
+.fa {
+    padding: 0;
+    font-size: 25px;
+    width: 25px;
+    text-decoration: none;
+    margin: 0px 0px;
+}
+.fa:hover {
+            opacity: 0.9;
+        }
+        .fa-facebook {
+            color: #3b5998
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-twitter {
+            color: #1d9bf0;
+        }
+        .fa-instagram {
+            color: transparent;
+            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .fa-arrow-up {
+            color: white;
+            font-size: x-large;
+
+        }
+        .fa-github {
+            color: #000000;
+        }
+h1 {
+    color: whitesmoke;
+}
+#btn-back-to-top {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    z-index: 99; 
+
+;}
+#intro {
+    background-repeat: no-repeat;
+    max-height: auto;
+}
+#about {
+    min-height: 100vh;
+}
+#experience {
+    min-height: 100vh;
+}
+#projects {
+    min-height: 100vh;
+}
+#skills {
+    min-height: 100vh;
+}
+#contact{
+    min-height: 100vh;
+
+}
+.carousel > .carousel-inner > .carousel-item > img{
+    max-width: 100%;
+    max-height: auto;
+    height: auto;
+    width: auto\9;
+}
+#honeypot{
+    display: none;
+}
+textarea {
+    height: 140px;
+}
+div.card {
+    max-width: 100%;
+    width: 100%;
+}
+.card-text {
+    font-size: small;
+}
+.card-text.p {
+    font-size: small;
+}
+#examples{
+    width: 40vw;
+}
+#examples_small {
+    width: 80vw
+}
+#CV{
+    background-color: whitesmoke;
+    border-radius: 25%;
+}
