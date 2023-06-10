@@ -68,10 +68,10 @@ h1 {
 #skills {
     min-height: 100vh;
 }
-#contact{
+/* #contact{
     min-height: 100vh;
 
-}
+} */
 .carousel > .carousel-inner > .carousel-item > img{
     max-width: 100%;
     max-height: auto;
