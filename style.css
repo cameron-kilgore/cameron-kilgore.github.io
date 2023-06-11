@@ -1,9 +1,7 @@
 .fa {
-    padding: 0;
     font-size: 25px;
     width: 25px;
     text-decoration: none;
-    margin: 0px 0px;
 }
 .fa:hover {
             opacity: 0.9;
@@ -50,23 +48,19 @@ h1 {
     width: 50px;
     height: 50px;
     z-index: 99; 
-
-;}
+}
 #intro {
     background-repeat: no-repeat;
     max-height: auto;
 }
 #about {
-    min-height: 100vh;
+    min-height: auto;
 }
 #experience {
-    min-height: 100vh;
-}
-#projects {
-    min-height: 100vh;
+    min-height: auto;
 }
 #skills {
-    min-height: 100vh;
+    min-height: auto;
 }
 /* #contact{
     min-height: 100vh;
