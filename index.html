@@ -3,12 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cameron Kilgore</title>  
-  <style>
-    section{
-      padding: 10px 0;
-    }
-  </style>
+  <title>Cameron Kilgore</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
@@ -24,7 +19,7 @@
       <a class="navbar-brand" href="">
         <img src="assets/profile.webp" alt="profile" width="120">
       </a>
-        <div class="text-center" style="display:inline-flex">
+        <div class="text-center">
           <a href="https://web.facebook.com/Cameron.M.Kilgore" aria-label="Facebook" class="fa fa-facebook"></a>
           <!-- Twitter -->
           <a href="https://twitter.com/CameronKilgore" aria-label="Twitter" class="fa fa-twitter"></a>
@@ -62,14 +57,36 @@
     </div>
   </nav>
 
-  <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+  <button type="button" class="btn btn btn-floating btn-lg" id="btn-back-to-top">
       <i class="fa fa-arrow-up"></i>
       <span class="visually-hidden">Back to Top</span>
   </button>
 
   <!-- intro -->
   <section id="intro">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="d-none d-sm-block">
+      <section id="split-banner">
+        <div class="">
+          <div id="banner">
+            <div class="inline-block">
+              <img src="assets/Retro-pedro-carousel-final.webp" alt="" class="img-fluid">
+            </div>
+            <div class="inline-block">
+              <img src="assets/Footloose-fight-carousel-final.webp" alt="" class="img-fluid">
+            </div>
+            <div class="inline-block" style="margin-top: 0;">
+              <img src="assets/profile.webp" alt="" class="img-fluid">
+            </div>
+            <div class="inline-block" >
+              <img src="assets/GUTS-hackathon-win-carousel-final.webp" alt="" class="img-fluid">
+            </div>
+            <div class="inline-block">
+              <img src="assets/Censis-winning-team-carousel-final.webp" alt="" class="img-fluid">
+            </div>
+          </div>
+        </section>
+    </div>
+        <div id="carouselExampleControls" class="carousel slide d-sm-none" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block" src="assets/Retro-pedro-carousel-final.webp" alt="First slide">
@@ -140,10 +157,9 @@
       </div>
     </div>
   </section>
-
   <!-- About Me -->
   <section id="about">
-    <div class="container-lg">
+    <div class="container-lg text-center">
       <div class="row justify-content-center">
         <div class="col-md-5 text-center">
           <div class="display-2 fw-bold">
@@ -153,21 +169,20 @@
         <div class="display-7">
           <p></p>
           <p>
-            I am an Undergraduate Computer Scientist studying my BSc(hons) at the University of Glasgow.
+            I am an Undergraduate <b>Computer Scientist</b> studying my BSc(hons) at the <b>University of Glasgow</b>.
           </p>
           <p>
             I have a passion for tech, this passion drives me towards improvement, not only in the work I do, but in all aspects of 
             my life. Due to my analytical brain, I am a quick learner and problem solver, which is key for my studies as a 
-            Computing Scientist.
+            Computer Scientist.
           </p>
           <p>
-            I have experience working as a tax accountant for RSM UK.
-            I had many responsibilities ranging from the preparation of highly technical computations for companies of varying 
-            sizes from small companies to larger groups of companies.
+            
+            I have experience working as a <b><a href="#experience" style="color:black">tax accountant for RSM UK</a></b>.
           </p>
           <p>
             Not only have I been a part of many projects during my studies at University, but I have also participated in multiple Hackathons.
-            I have won 2 to date and hope that this number will grow. In my free time I also partake in small personal projects, which I am hoping to 
+            I have <b>won 2 Hackathons</b> to date and hope that this number will grow. In my free time I also partake in small personal projects, which I am hoping to 
             do more of during my career in Computing.
           </p>
           <p>
@@ -181,9 +196,9 @@
             thousand people.
           </p>
         </div>
-        <div class="text-center img-fluid">
+        <!-- <div class="text-center img-fluid">
           <img src="assets/small-break.webp" alt="" class="img-fluid">
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -315,15 +330,31 @@
         </div>
       </div>
     </section>
-
+    <section id="split-banner">
+    <div class="container-lg">
+      <div id="banner">
+        <div class="inline-block">
+          <img src="assets/Retro-pedro-carousel-final.webp" alt="" class="img-fluid">
+        </div>
+        <div class="inline-block">
+          <img src="assets/Footloose-fight-carousel-final.webp" alt="" class="img-fluid">
+        </div>
+        <div class="inline-block" style="margin-top: 0;">
+          <img src="assets/profile.webp" alt="" class="img-fluid">
+        </div>
+        <div class="inline-block" >
+          <img src="assets/GUTS-hackathon-win-carousel-final.webp" alt="" class="img-fluid">
+        </div>
+        <div class="inline-block">
+          <img src="assets/Censis-winning-team-carousel-final.webp" alt="" class="img-fluid">
+        </div>
+      </div>
+    </section>
 
   <!-- Contact -->
   <section id="contact">
     <div class="container-lg">
-      <div class="text-center img-fluid">
-        <img src="assets/small-break.webp" alt="" class="img-fluid">
-      </div> 
-      <div class="text-center ">
+      <div class="text-center">
         <h2>Contact Me</h2>
         <p class="lead">Fill out the form below to get in contact with me</p>
       </div>
