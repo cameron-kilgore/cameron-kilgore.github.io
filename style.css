@@ -4,38 +4,29 @@
     text-decoration: none;
 }
 .fa:hover {
-            opacity: 0.9;
-        }
-        .fa-facebook {
-            color: #3b5998
-        }
-
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
-        }
-
-        .fa-twitter {
-            color: #1d9bf0;
-        }
-        .fa-instagram {
-            color: transparent;
-            background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-        .fa-arrow-up {
-            color: green;
-            font-size:xx-large;
-
-        }
-        .fa-github {
-            color: #000000;
-        }
-h1 {
-    color: whitesmoke;
+    color: #24cad6;
+    opacity: 0.5;
 }
+
+.fa-twitter {
+    color: #1d9bf0;
+}
+.fa-instagram {
+    color: transparent;
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.fa-arrow-up {
+    color: green;
+    font-size:xx-large;
+
+}
+.fa-github {
+    color: #000000;
+}
+
 #btn-back-to-top {
     position: fixed;
     display: flex;
@@ -49,23 +40,7 @@ h1 {
     height: 50px;
     z-index: 99;
 }
-#intro {
-    background-repeat: no-repeat;
-    max-height: auto;
-}
-#about {
-    min-height: auto;
-}
-#experience {
-    min-height: auto;
-}
-#skills {
-    min-height: auto;
-}
-/* #contact{
-    min-height: 100vh;
 
-} */
 .carousel > .carousel-inner > .carousel-item > img{
     max-width: 100%;
     max-height: auto;
@@ -78,10 +53,6 @@ h1 {
 textarea {
     height: 140px;
 }
-div.card {
-    max-width: 100%;
-    width: 100%;
-}
 .card-text {
     font-size: small;
 }
@@ -92,7 +63,7 @@ div.card {
     width: 40vw;
 }
 #examples_small {
-    width: 80vw
+    width: 80vw;
 }
 #CV{
     background-color: whitesmoke;
@@ -109,4 +80,8 @@ div.card {
 }
 section{
     padding: 10px 0;
+}
+a{
+    text-decoration: none;
+
 }
