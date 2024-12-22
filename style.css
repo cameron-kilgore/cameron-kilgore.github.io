@@ -27,6 +27,14 @@
     color: #000000;
 }
 
+.fa-envelope-o {
+    color: #000000;
+}
+
+.fa-phone-square {
+    color: #000000;
+}
+
 #btn-back-to-top {
     position: fixed;
     display: flex;
@@ -53,11 +61,12 @@
 textarea {
     height: 140px;
 }
+
 .card-text {
-    font-size: small;
+    font-size: medium;
 }
 .card-text.p {
-    font-size: small;
+    font-size: medium;
 }
 #examples{
     width: 40vw;
@@ -83,5 +92,20 @@ section{
 }
 a{
     text-decoration: none;
+}
+.modal-body{
+    padding: 0;
+    height: 80vh;
+}
 
+.card{
+    padding: 0em 0em .5em;
+    border-radius: 1em;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+#JPMC{
+    background-image: linear-gradient(266deg, rgb(111, 61, 30) 39.15%, rgb(163, 104, 72) 62.81%, rgb(111, 61, 30) 90.77%);
+    width: 245px;
+    height: 35px;
 }

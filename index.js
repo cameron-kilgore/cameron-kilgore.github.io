@@ -23,3 +23,13 @@ function backToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+let openCVLink = document.getElementById('openCV');
+if (openCVLink) {
+    openCVLink.addEventListener('click', function() {
+        var myModal = new bootstrap.Modal(document.getElementById('cvModal'), {
+            keyboard: false
+        });
+        myModal.show();
+    });
+}
