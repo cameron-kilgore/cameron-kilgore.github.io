@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+
 import { projects } from "@/data/projects";
 import Section from "@/components/ui/Section";
 
@@ -18,7 +19,8 @@ export default function Projects() {
       >
         <h2 className="mb-4 text-4xl font-bold">Projects</h2>
         <p className="text-lg text-[var(--muted)]">
-          A selection of projects Im proud of. From winning hackathons to production systems serving millions of users.
+          A selection of projects I'm proud of, from winning hackathons to
+          production systems.
         </p>
       </motion.div>
 
@@ -32,7 +34,6 @@ export default function Projects() {
             viewport={{ once: true }}
             className="group overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--surface)] transition-all duration-300 hover:shadow-lg"
           >
-            {/* Image */}
             <div className="relative h-48 overflow-hidden bg-[var(--card)]">
               <Image
                 src={project.image}
@@ -43,12 +44,10 @@ export default function Projects() {
               />
             </div>
 
-            {/* Content */}
             <div className="p-6">
               <h3 className="mb-2 text-xl font-bold">{project.title}</h3>
               <p className="mb-6 text-[var(--muted)]">{project.description}</p>
 
-              {/* Tags */}
               <div className="mb-6 flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
                   <span
@@ -60,14 +59,13 @@ export default function Projects() {
                 ))}
               </div>
 
-              {/* Links */}
               <div className="flex gap-3">
                 {project.link && (
                   <Link
                     href={project.link}
                     className="text-sm font-medium text-[var(--primary)] hover:underline"
                   >
-                    View Project →
+                    View Project -&gt;
                   </Link>
                 )}
                 {project.github && (
@@ -77,7 +75,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="text-sm font-medium text-[var(--primary)] hover:underline"
                   >
-                    GitHub →
+                    GitHub -&gt;
                   </Link>
                 )}
               </div>

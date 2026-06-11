@@ -10,7 +10,7 @@ import Button from "@/components/ui/Button";
 export default function Hero() {
   return (
     <>
-      <Section id="hero">
+      <Section id="hero" className="pt-12 lg:pt-16">
         <div className="grid items-start gap-16 lg:grid-cols-3">
           <motion.div
             initial={{ opacity: 0, y: 24 }}
@@ -34,7 +34,7 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a href="#experience">
-                <Button>
+                <Button as="span">
                   Explore Experience
                 </Button>
               </a>
@@ -44,7 +44,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="secondary">
+                <Button as="span" variant="secondary">
                   Download CV
                 </Button>
               </a>
