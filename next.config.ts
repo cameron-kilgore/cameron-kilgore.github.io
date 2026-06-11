@@ -11,6 +11,8 @@ const nextConfig: NextConfig = {
   compress: true,
   // Disable source maps in production for smaller bundle
   productionBrowserSourceMaps: false,
+  output: "export",
+  reactStrictMode: true,
 };
 
 export default nextConfig;
