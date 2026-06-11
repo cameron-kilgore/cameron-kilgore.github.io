@@ -9,9 +9,9 @@ export interface ProjectItem {
 
 export const projects: ProjectItem[] = [
   {
-    title: "Dissertation: AI-Powered Financial Analysis",
+    title: "Dissertation: Public Speaking Coach",
     description:
-      "Developed a machine learning system for anomaly detection in financial markets using deep learning.",
+      "Developed a machine learning system for giving actionable feedback based on audio analysis and participant research analysing the effectiveness of this system.",
     image: "/images/Diss-ui-design.webp",
     tags: ["Python", "TensorFlow", "Financial Data"],
   },

@@ -55,7 +55,7 @@ export const experience: ExperienceItem[] = [
     description:
       "Provided hands-on lab support for computational thinking and programming courses. Taught students Python and software engineering principles.",
     highlights: [
-      "Guided students through programming exercises and troubleshooting in COMPSCI1016 and COMPSCI1017",
+      "Guided students through programming exercises and troubleshooting",
       "Simplified complex programming concepts, enhancing problem-solving and debugging skills",
       "Fostered supportive learning environment encouraging innovation in computational thinking",
     ],
@@ -69,7 +69,7 @@ export const experience: ExperienceItem[] = [
       "Service Management and Business Relationship Management internship. Created reports and dashboards on tech innovation and incident metrics.",
     highlights: [
       "Created Power BI and ServiceNow reports on company technology innovations and weekly incident metrics",
-      "Designed ServiceNow dashboards for Service Management team, analyzing complex data structures",
+      "Designed ServiceNow dashboards for Service Management team, for use in live SLA tracking",
       "Presented technical insights to business and technical stakeholders, translating data into actionable recommendations",
     ],
   },

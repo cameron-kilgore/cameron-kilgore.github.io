@@ -11,7 +11,7 @@ export default function MusicalTheatrePage() {
           Musical Theatre Projects
         </h1>
         <p className="text-lg text-[var(--muted)]">
-          This page is ready for your musical theatre showcase. Replace the placeholder copy with productions, performances, and links you want to feature.
+          Please find below some of the cool productions/projects I have been involved in.
         </p>
       </div>
     </Section>

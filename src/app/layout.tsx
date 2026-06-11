@@ -23,29 +23,26 @@ export const metadata: Metadata = {
   keywords: [
     "Software Engineer",
     "Financial Technology",
-    "Cloud Infrastructure",
     "Python",
-    "TypeScript",
-    "AWS",
     "J.P. Morgan",
-    "Cambridge",
+    "University of Cambridge",
   ],
   creator: "Cameron Kilgore",
   authors: [{ name: "Cameron Kilgore" }],
-  metadataBase: new URL("https://cameron-kilgore.dev"),
+  metadataBase: new URL("https://cameron-kilgore.com"),
   alternates: {
-    canonical: "https://cameron-kilgore.dev",
+    canonical: "https://cameron-kilgore.com",
   },
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://cameron-kilgore.dev",
+    url: "https://cameron-kilgore.com",
     title: "Cameron Kilgore | Financial Technology Engineer",
     description:
       "Full-stack software engineer specializing in financial technology, cloud infrastructure, and AI.",
     images: [
       {
-        url: "https://cameron-kilgore.dev/og-image.png",
+        url: "https://cameron-kilgore.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Cameron Kilgore - Portfolio",
@@ -58,7 +55,7 @@ export const metadata: Metadata = {
     title: "Cameron Kilgore | Financial Technology Engineer",
     description:
       "Building scalable financial systems with Python, TypeScript, and AWS.",
-    images: ["https://cameron-kilgore.dev/twitter-image.png"],
+    images: ["https://cameron-kilgore.com/twitter-image.png"],
   },
   robots: {
     index: true,
@@ -98,7 +95,7 @@ export default function RootLayout({
           content="Cameron Kilgore - Full-stack software engineer specializing in financial technology, cloud infrastructure, and AI."
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="canonical" href="https://cameron-kilgore.dev" />
+        <link rel="canonical" href="https://cameron-kilgore.com" />
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />

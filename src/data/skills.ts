@@ -10,14 +10,14 @@ export const skills: SkillCategory[] = [
   },
   {
     category: "Data & Analytics",
-    skills: ["TensorFlow", "PyTorch", "Pandas", "NumPy", "SQL", "Power BI", "Data Visualization"],
+    skills: ["Pandas", "SQL", "Power BI", "Data Visualization"],
   },
   {
     category: "Finance",
-    skills: ["Tax Accounting", "Valuation Control Tech", "Risk Tech", "Pricing Calc", "Consensus Pricing & Processing"],
+    skills: ["Valuation Control Tech", "Risk Tech", "Pricing Models Basic", "Consensus Pricing & Processing"],
   },
   {
     category: "Tools",
-    skills: ["Git", "VS Code", "Figma", "JIRA", "Athena (JPMC Platform)"],
+    skills: ["Git", "VS Code", "JIRA", "Athena (JPMC Platform)", "Agentic Development"],
   },
 ];

@@ -99,7 +99,7 @@ export default function Hero() {
 
                 <div>
                   <p className="font-semibold text-[var(--text)]">Incoming MPhil</p>
-                  <p className="text-sm text-[var(--muted)]">Cambridge • Human-Inspired AI</p>
+                  <p className="text-sm text-[var(--muted)]">University of Cambridge • Human-Inspired AI</p>
                 </div>
 
                 <div>
@@ -128,7 +128,7 @@ export default function Hero() {
               label="EDUCATION"
               value="MPhil"
               subtitle="Human-Inspired AI"
-              subsubtitle="Cambridge University"
+              subsubtitle="University of Cambridge"
             />
 
             <Stat

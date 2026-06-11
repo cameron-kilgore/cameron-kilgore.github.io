@@ -29,9 +29,7 @@ export default function Analytics() {
         className="mb-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"
       >
         <StatCard label="LinkedIn Connections" value={linkedInStats.connections} />
-        <StatCard label="LinkedIn Followers" value={linkedInStats.followers} />
         <StatCard label="Profile Impressions" value={linkedInStats.impressions} />
-        <StatCard label="Post Engagements" value={linkedInStats.engagements} />
       </motion.div>
 
 

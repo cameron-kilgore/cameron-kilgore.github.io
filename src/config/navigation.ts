@@ -20,6 +20,10 @@ const navigation: NavigationItem[] = [
     label: "Contact",
     href: "#contact",
   },
+  {
+    label: "Theatre",
+    href: "/musical-theatre",
+  }
 ];
 
 export default navigation;
