@@ -1,6 +1,7 @@
 export interface ExperienceItem {
   company: string;
   logo: string;
+  logoBackground?: "dark" | "light" | "surface";
   role: string;
   period: string;
   description: string;
@@ -9,10 +10,11 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    company: "J.P. Morgan Chase",
+    company: "JPMorganChase",
     logo: "/images/jpmc-logo-white.svg",
+    logoBackground: "dark",
     role: "Software Engineer",
-    period: "February 2025 – Present",
+    period: "February 2025 - Present",
     description:
       "Valuation Control Group Tech Team. Building data sourcing and analysis tools enabling control reviews of financial results across trading desks at scale.",
     highlights: [
@@ -24,21 +26,23 @@ export const experience: ExperienceItem[] = [
   {
     company: "Amazon",
     logo: "/images/Amazon-day1.webp",
+    logoBackground: "light",
     role: "Program Manager Intern",
-    period: "June 2024 – November 2024",
+    period: "June 2024 - November 2024",
     description:
       "EU ATS ROC Performance Improvement Team. Led projects optimizing EU transportation network efficiency through data analysis and process improvement.",
     highlights: [
       "Created SQL-based dashboards using ETL Manager and QuickSight to visualize transportation metrics and identify inefficiencies",
       "Developed Python scripts to audit transportation data and flag EU-wide disruptions in real-time",
-      "Implemented JavaScript compliance tools preventing disruptions on Amazon's transportation platform; projects had entitlements over £10MM",
+      "Implemented JavaScript compliance tools preventing disruptions on Amazon's transportation platform; projects had entitlements over GBP 10MM",
     ],
   },
   {
     company: "Glasgow University Technology & Innovation Club (GUTIC)",
     logo: "/images/uofg.svg",
+    logoBackground: "light",
     role: "Head of Quant Team",
-    period: "February 2024 – June 2024",
+    period: "February 2024 - June 2024",
     description:
       "Led quantitative research and trading strategy development within the GUTIC Fund. Mentored analysts in quantitative methods and financial modeling.",
     highlights: [
@@ -50,8 +54,9 @@ export const experience: ExperienceItem[] = [
   {
     company: "University of Glasgow",
     logo: "/images/uofg.svg",
+    logoBackground: "light",
     role: "Assistant Demonstrator",
-    period: "September 2023 – June 2024",
+    period: "September 2023 - June 2024",
     description:
       "Provided hands-on lab support for computational thinking and programming courses. Taught students Python and software engineering principles.",
     highlights: [
@@ -63,6 +68,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "SLC",
     logo: "/images/SLC_Logo.png",
+    logoBackground: "light",
     role: "Technology Operations Intern",
     period: "Summer 2023",
     description:
@@ -75,9 +81,10 @@ export const experience: ExperienceItem[] = [
   },
   {
     company: "CENSIS / Quorum Cyber",
-    logo: "images/Retro-pedro-carousel-final.webp",
+    logo: "/images/censis_logo.svg",
+    logoBackground: "dark",
     role: "Scrum Master & Machine Learning Engineer",
-    period: "September 2022 – March 2023",
+    period: "September 2022 - March 2023",
     description:
       "Audio Sensor Machine Learning Project. Led Agile team delivering ML-powered sound classification system for social housing safety.",
     highlights: [
@@ -89,8 +96,9 @@ export const experience: ExperienceItem[] = [
   {
     company: "RSM UK",
     logo: "/images/RSM-Logo.png",
+    logoBackground: "light",
     role: "Tax Assistant",
-    period: "August 2018 – December 2019",
+    period: "August 2018 - December 2019",
     description:
       "Prepared tax returns and computations for individuals, trusts, and companies. Conducted anti-money laundering compliance reviews.",
     highlights: [
