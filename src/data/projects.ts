@@ -16,6 +16,20 @@ export const projects: ProjectItem[] = [
     tags: ["Python", "TensorFlow", "Financial Data"],
   },
   {
+    title: "Head of Quant Team: Glasgow University Technology & Innovation Club (GUTIC)",
+    image: "/images/GUTIC.avif",
+    description:
+      "Led quantitative research and trading strategy development within the GUTIC Fund. Mentored analysts in quantitative methods and financial modeling.",
+    tags: ["Quantitative Research", "Financial Analysis", "Python", "Mentorship"],
+  },
+  {
+    title: "Scrum Master & Machine Learning Engineer: CENSIS / Quorum Cyber",
+    image: "/images/censis_logo.svg",
+    description:
+      "Audio Sensor Machine Learning Project. Led Agile team delivering ML-powered sound classification system for social housing safety.",
+    tags: ["Scrum Master", "Machine Learning", "C Programming", "Python"],
+  },
+  {
     title: "GUTS Hackathon Winner",
     description:
       "Hackathon project focused on sustainability, we built a world simulator game.",

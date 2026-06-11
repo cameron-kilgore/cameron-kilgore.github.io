@@ -1,7 +1,7 @@
 export interface ExperienceItem {
   company: string;
   logo: string;
-  logoBackground?: "dark" | "light" | "surface";
+  logoBackground: string;
   role: string;
   period: string;
   description: string;
@@ -12,7 +12,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "JPMorganChase",
     logo: "/images/jpmc-logo-white.svg",
-    logoBackground: "dark",
+    logoBackground: "jpmc",
     role: "Software Engineer",
     period: "February 2025 - Present",
     description:
@@ -25,7 +25,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     company: "Amazon",
-    logo: "/images/Amazon-day1.webp",
+    logo: "/images/amazon-logo.png",
     logoBackground: "light",
     role: "Program Manager Intern",
     period: "June 2024 - November 2024",
@@ -35,20 +35,6 @@ export const experience: ExperienceItem[] = [
       "Created SQL-based dashboards using ETL Manager and QuickSight to visualize transportation metrics and identify inefficiencies",
       "Developed Python scripts to audit transportation data and flag EU-wide disruptions in real-time",
       "Implemented JavaScript compliance tools preventing disruptions on Amazon's transportation platform; projects had entitlements over GBP 10MM",
-    ],
-  },
-  {
-    company: "Glasgow University Technology & Innovation Club (GUTIC)",
-    logo: "/images/uofg.svg",
-    logoBackground: "light",
-    role: "Head of Quant Team",
-    period: "February 2024 - June 2024",
-    description:
-      "Led quantitative research and trading strategy development within the GUTIC Fund. Mentored analysts in quantitative methods and financial modeling.",
-    highlights: [
-      "Provided training and mentorship in quantitative analysis techniques and Python for financial analysis",
-      "Led development of quantitative trading strategies leveraging statistical models",
-      "Analyzed financial data to identify trends and inform data-driven trading decisions",
     ],
   },
   {
@@ -77,20 +63,6 @@ export const experience: ExperienceItem[] = [
       "Created Power BI and ServiceNow reports on company technology innovations and weekly incident metrics",
       "Designed ServiceNow dashboards for Service Management team, for use in live SLA tracking",
       "Presented technical insights to business and technical stakeholders, translating data into actionable recommendations",
-    ],
-  },
-  {
-    company: "CENSIS / Quorum Cyber",
-    logo: "/images/censis_logo.svg",
-    logoBackground: "dark",
-    role: "Scrum Master & Machine Learning Engineer",
-    period: "September 2022 - March 2023",
-    description:
-      "Audio Sensor Machine Learning Project. Led Agile team delivering ML-powered sound classification system for social housing safety.",
-    highlights: [
-      "Led team as Scrum Master, sprints and conducting standups",
-      "Developed C and Arduino code for ESP32 microcontroller, calculating FFTs from sensor data",
-      "Explored ML approaches in Python",
     ],
   },
   {

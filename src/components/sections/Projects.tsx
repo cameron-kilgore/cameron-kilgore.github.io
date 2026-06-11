@@ -19,7 +19,7 @@ export default function Projects() {
       >
         <h2 className="mb-4 text-4xl font-bold">Projects</h2>
         <p className="text-lg text-[var(--muted)]">
-          A selection of projects I'm proud of, from winning hackathons to
+          A selection of projects I`&apos;`m proud of, from winning hackathons to
           production systems.
         </p>
       </motion.div>

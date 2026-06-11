@@ -21,7 +21,7 @@ export default function Contact() {
         <h2 className="mb-4 text-4xl font-bold">Get in Touch</h2>
         <p className="mb-12 text-lg text-[var(--muted)]">
           Whether you have a question, a project opportunity, or just want to
-          connect - feel free to reach out. I'm always interested in discussing
+          connect - feel free to reach out. I`&apos;`m always interested in discussing
           technology, finance, and AI.
         </p>
 

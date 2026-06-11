@@ -40,7 +40,9 @@ export default function Experience() {
                   exp.logoBackground === "dark" &&
                     "border-slate-700 bg-slate-950",
                   exp.logoBackground === "light" &&
-                    "border-slate-200 bg-white",
+                    "border-back bg-white",
+                  exp.logoBackground === "jpmc" &&
+                    "border-black bg-[#8f5a39]",
                   (!exp.logoBackground || exp.logoBackground === "surface") &&
                     "border-[var(--border)] bg-[var(--card)]"
                 )}
