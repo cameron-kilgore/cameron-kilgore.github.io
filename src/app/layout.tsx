@@ -9,7 +9,7 @@ import Footer from "@/components/layout/Footer";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import { cn } from "@/lib/utils";
 
-import Script from "next/script";
+import GoogleAnalyticsProvider from "@/components/providers/GoogleAnalyticsProvider";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -83,6 +83,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  if(!gaId){
+    throw new Error("Google Analytics ID is not set in environment variables");
+  }
   return (
     <html
       lang="en"
@@ -101,18 +105,7 @@ export default function RootLayout({
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer;
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
-          `}
-        </Script>
+        <GoogleAnalyticsProvider gaId={gaId} />
       </head>
       <body
         className={`${inter.variable} ${geistMono.variable}`}
