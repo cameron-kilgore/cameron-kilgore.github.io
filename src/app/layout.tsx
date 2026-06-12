@@ -9,7 +9,7 @@ import Footer from "@/components/layout/Footer";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import { cn } from "@/lib/utils";
 
-import GoogleAnalyticsProvider from "@/components/providers/GoogleAnalyticsProvider";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -105,7 +105,7 @@ export default function RootLayout({
         {/* Preconnect to external domains */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <GoogleAnalyticsProvider gaId={gaId} />
+        <GoogleAnalytics gaId={gaId} />
       </head>
       <body
         className={`${inter.variable} ${geistMono.variable}`}
