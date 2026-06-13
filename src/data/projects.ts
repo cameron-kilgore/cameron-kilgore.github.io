@@ -14,6 +14,7 @@ export const projects: ProjectItem[] = [
       "Developed a machine learning system for giving actionable feedback based on audio analysis and participant research analysing the effectiveness of this system.",
     image: "/images/Diss-ui-design.webp",
     tags: ["Python", "TensorFlow", "Financial Data"],
+    github: "https://stgit.dcs.gla.ac.uk/2545084k/speech-analytics-and-feedback-for-effective-public-speaking/-/tree/Final_Project_State?ref_type=heads",
   },
   {
     title: "Head of Quant Team: Glasgow University Technology & Innovation Club (GUTIC)",
@@ -30,12 +31,12 @@ export const projects: ProjectItem[] = [
     tags: ["Scrum Master", "Machine Learning", "C Programming", "Python"],
   },
   {
-    title: "GUTS Hackathon Winner",
+    title: "2 x GUTS Hackathon Winner",
     description:
       "Hackathon project focused on sustainability, we built a world simulator game.",
     image: "/images/GUTS-win-2.webp",
     tags: ["Unity", "C#", "Game Development", "Hackathon"],
-    github: "https://github.com/cameron-kilgore",
+    github: "https://github.com/space928/Pocket-Earth",
   },
   {
     title: "Musical Theatre Projects",
