@@ -103,8 +103,8 @@ export default function Hero() {
           >
             <Stat
               label="Experience"
-              value="4+ Years"
-              subtitle="Accounting + finance software"
+              value="3+ Years"
+              subtitle="Accounting + Finance Software"
             />
 
             <Stat
